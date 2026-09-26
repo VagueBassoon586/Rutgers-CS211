@@ -1,0 +1,52 @@
+2025-11-20 19:40:38,290 ERROR    Uncaught exception: [Errno 2] No such file or directory: 'make'
+Traceback (most recent call last):
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 1016, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 765, in test_project
+    project.build()
+    ~~~~~~~~~~~~~^^
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 674, in build
+    run_command(['make', self.prog])
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 43, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "/usr/lib64/python3.13/subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/subprocess.py", line 1974, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'make'
+2025-11-20 19:47:40,308 ERROR    Uncaught exception: [Errno 2] No such file or directory: 'make'
+Traceback (most recent call last):
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 1016, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 765, in test_project
+    project.build()
+    ~~~~~~~~~~~~~^^
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 674, in build
+    run_command(['make', self.prog])
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vaguebassoon586/Downloads/pa4/autograde.py", line 43, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "/usr/lib64/python3.13/subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/subprocess.py", line 1974, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'make'
