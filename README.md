@@ -1,3 +1,3 @@
-# Rutgers CS210
+# Rutgers CS211
 
 Contains most homeworks completed, originally stored on Rutgers' Box.
